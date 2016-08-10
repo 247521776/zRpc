@@ -1,0 +1,29 @@
+{
+  "name": "zrpc",
+  "version": "0.0.1",
+  "description": "zrpc",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "babel src -d dist --source-maps=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zBigData/zRpc.git"
+  },
+  "keywords": [
+    "rcp",
+    "zookeeper",
+    "bigdata"
+  ],
+  "author": "admin@cavacn.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zBigData/zRpc/issues"
+  },
+  "homepage": "https://github.com/zBigData/zRpc#readme",
+  "devDependencies": {
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-preset-stage-3": "^6.11.0"
+  }
+}
