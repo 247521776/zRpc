@@ -25,5 +25,8 @@
   "devDependencies": {
     "babel-preset-es2015-node4": "^2.1.0",
     "babel-preset-stage-3": "^6.11.0"
+  },
+  "dependencies": {
+    "request": "^2.74.0"
   }
 }
